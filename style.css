@@ -1,0 +1,38 @@
+#body{
+    text-align: center;
+    background: rgb(236,233,7);
+    background: linear-gradient(90deg, rgba(236,233,7,1) 34%, rgba(200,73,14,1) 96%);
+}
+
+h1 {
+    font-style: italic;
+    font-weight: bolder;
+    color: rgb(245, 248, 245);
+    font-size: 5rem;
+}
+
+#GFG_UP{
+    font-size: 20px;
+    font-weight: bold;
+}
+#GFG_DOWN {
+    color: rgb(38, 18, 185);
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+button {
+    background-color: #c0cac0;
+    border-radius: 10px;
+    color: rgb(18, 17, 17);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.myimg{
+    height: 300px;
+}

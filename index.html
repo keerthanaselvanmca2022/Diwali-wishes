@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>
+		DiWali Wishes
+	</title>
+    <link rel="stylesheet" href="style.css">	
+</head>
+
+<body id = "body" >
+	
+	<h1 >
+		HaPpy DiWaLi 🎉 
+	</h1>
+	
+	<p id = "GFG_UP"></p>
+	
+	<button onclick = "GFG_Fun()">
+		Click Here
+	</button>
+	
+	<p id = "GFG_DOWN">
+	</p>
+	
+	<script>
+		var up = document.getElementById('GFG_UP');
+		up.innerHTML = "Click on the button to get Your Gift Buddy 😻 ";
+		var down = document.getElementById('GFG_DOWN');
+	
+		function GFG_Fun() {
+			var img = document.createElement('img');
+            img.setAttribute("class","myimg");
+            img.src = 'https://www.kalpaflorist.com/wp-content/uploads/2017/09/Christmas-Hamper.jpg';
+			document.getElementById('body').appendChild(img);
+			down.innerHTML = "🧨 இனிய தீபாவளி நல்வாழ்த்துக்கள் 🧨 ";
+   
+		
+        
+        
+        }
+
+       
+	</script>
+</body>
+
+</html>
